@@ -203,13 +203,13 @@ async def usage_dynos(client, message, _):
     AppMinutes = math.floor(AppQuotaUsed % 60)
     await asyncio.sleep(1.5)
     text = f"""
-**DYNO USAGE**
+**ᴅʏɴᴏ ᴜsᴀɢᴇ**
 
-<u>Usage:</u>
-Total Used: `{AppHours}`**h**  `{AppMinutes}`**m**  [`{AppPercentage}`**%**]
+<u>ᴜsᴀɢᴇ:</u>
+ᴛᴏᴛᴀʟ ᴜsᴇᴅ: `{AppHours}`**h**  `{AppMinutes}`**m**  [`{AppPercentage}`**%**]
 
-<u>Remaining Quota:</u>
-Total Left: `{hours}`**h**  `{minutes}`**m**  [`{percentage}`**%**]"""
+<u>ʀᴇᴍᴀɪɴɪɴɢ ǫᴜᴏᴛᴀ:</u>
+ᴛᴏᴛᴀʟ ʟᴇғᴛ: `{hours}`**h**  `{minutes}`**m**  [`{percentage}`**%**]"""
     return await dyno.edit(text)
 
 

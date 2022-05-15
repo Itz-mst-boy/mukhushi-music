@@ -5,12 +5,12 @@ from pyrogram import Client
 import config
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb+srv://Mukesh01:mstboy@cluster0.8jwzl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "No MONGO DB URL found.. Your Bot will work on Hero's Database"
+        "No MONGO DB URL found.. Your Bot will work on Mukhushi's Database"
     )
     temp_client = Client(
         "Hero",

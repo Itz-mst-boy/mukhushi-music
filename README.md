@@ -1,9 +1,4 @@
-# Hero Music Bot
-
-<img src="https://te.legra.ph/file/72b8500b85d0c4798c6d5.jpg" align="right" width="200" height="200"/>
-
-
-Hero Music Bot is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+ Music Bot is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
 * Youtube, Soundcloud, Apple Music, Spotify, Resso and Telegram Audios & Videos support.
 * Written from scratch, making it stable and less crashes.

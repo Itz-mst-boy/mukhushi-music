@@ -1,7 +1,7 @@
 {
-    "name": "Hero Music Bot",
+    "name": "Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://te.legra.ph/file/6b99ffd7c2b359bfc599d.jpg",
+    "logo": "https://telegra.ph/file/7fa9017265d3d6f51d191.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -35,7 +35,7 @@
         "required": false
       },  
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Hero's database for you.",
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Mukhushi database for you.",
         "value": "",
         "required": false
       },

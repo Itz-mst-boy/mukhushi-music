@@ -63,10 +63,10 @@ async def init():
     except:
         pass
     await Hero.decorators()
-    LOGGER("HeroMusic").info("Hero Music Bot Started Successfully")
+    LOGGER("HeroMusic").info("Mukhushi Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("HeroMusic").info("Stopping Hero Music Bot! GoodBye")
+    LOGGER("HeroMusic").info("Stopping Mukhushi Music Bot! GoodBye")

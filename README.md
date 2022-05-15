@@ -22,7 +22,7 @@
 # 🖇 Generating Pyrogram String Session
 
 
-- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/StringSession_robot)
+- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/Itz_string_generator_bot)
 
 
 # 🚀 Heroku Deployment

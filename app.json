@@ -31,7 +31,7 @@
       },
       "SUPPORT_GROUP": {
         "description": "enter group link example:- https://t.me/Yaaro_ki_yaarii", 
-        "value": "https://t.me/Yaaro_ki_yaarii", 
+        "value": "https://t.me/worldwide_friend_zone", 
         "required": false
       },  
       "MONGO_DB_URI": {
@@ -46,7 +46,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1323020756",
+        "value": "5142140533",
         "required": true
       },
       "STRING_SESSION": {
@@ -86,12 +86,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "",
+        "value": "-1001613182747",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Shailendra34/HeroMusicBot",
+        "value": "https://github.com/Itz-mst-boy/HeroMusicBot",
         "required": true
       },
       "UPSTREAM_BRANCH": {

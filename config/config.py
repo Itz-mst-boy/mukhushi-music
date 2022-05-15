@@ -22,22 +22,22 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1323020756").split())
+    map(int, getenv("OWNER_ID", "5142140533").split())
 )  
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Shailendra34/HeroMusicBot",
+    "https://github.com/Itz-mst-boy/HeroMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/HeroOfficialBots"
-)  # Example:- https://t.me/AboutShailendra
+    "SUPPORT_CHANNEL", "https://t.me/mukhushi_official"
+)  # Example:- https://t.me/mukhushi_official
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Yaaro_ki_yaarii"
-)  # Example:- https://t.me/Yaaro_ki_yaarii
+    "SUPPORT_GROUP", "https://t.me/worldwide_friend_zone"
+)  # Example:- https://t.me/worldwide_friend_zone
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")

@@ -33,7 +33,7 @@ Hero Music Bot is a Powerful Telegram Music+Video Bot written in Python using Py
 # 🚀 Heroku Deployment
 
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/Landh)
 
 
 ## 👨🏻‍💻 Authors & contributors

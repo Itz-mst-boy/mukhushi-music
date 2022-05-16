@@ -1,48 +1,60 @@
- Music Bot is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+ 
 
-* Youtube, Soundcloud, Apple Music, Spotify, Resso and Telegram Audios & Videos support.
-* Written from scratch, making it stable and less crashes.
-* Attractive thumbnails, fonts and images,  making experience more user-friendly and interactive.
-* Loop, Seek, Shuffle, Specific Skip, Playlists etc support
-* Global, Users, Chats Top 10 played tracks stats
-* Multi-Language support
+# ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ 
+
+#ᴋɪɴᴅʟʏ ɢɪᴠᴇ ᴀ sᴛᴀʀ  ʙᴇғᴏʀᴇ  ᴜsɪɴɢ  ᴅᴇᴘʟᴏʏɪɴɢ ʙᴏᴛ ᴀɴᴅ ғᴏʀᴋɪɴɢ.
+ ɪғ ᴜ ғᴀᴄᴇ ɪssᴜᴇ ᴛʜᴇɴ 1sᴛ ғᴏʀᴋ ʀᴇᴘᴏ ᴛʜᴇɴ ᴅᴇᴘʟᴏʏ.
 
 
-# Multi Assistant Mode
+<p> align="center">
+  <img src="">
+</p>
 
-- You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
+ #ғᴇᴀᴛᴜʀᴇs
+ᴍᴜsɪᴄ ʙᴏᴛ ɪs ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ ʙᴏᴛ ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴜsɪɴɢ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs ʙʏ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ sᴏɴɢs, ᴠɪᴅᴇᴏ ᴀɴᴅ ᴇᴠᴇɴ ʟɪᴠᴇ sᴛʀᴇᴀᴍs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄᴀʟʟs ᴠɪᴀ ᴠᴀʀɪᴏᴜs sᴏᴜʀᴄᴇs.
 
-1. `STRING_SESSION` : Pyrogram Session Needed
-2. `STRING_SESSION2` : Pyrogram Session Needed
-3. `STRING_SESSION3` : Pyrogram Session Needed
-4. `STRING_SESSION4` : Pyrogram Session Needed
-5. `STRING_SESSION5` : Pyrogram Session Needed
-
-
-# 🖇 Generating Pyrogram String Session
-
-
-- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/Itz_string_generator_bot)
+* ʏᴏᴜᴛᴜʙᴇ, sᴏᴜɴᴅᴄʟᴏᴜᴅ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ ᴀɴᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴅɪᴏs & ᴠɪᴅᴇᴏs sᴜᴘᴘᴏʀᴛ.
+* ᴡʀɪᴛᴛᴇɴ ғʀᴏᴍ sᴄʀᴀᴛᴄʜ, ᴍᴀᴋɪɴɢ ɪᴛ sᴛᴀʙʟᴇ ᴀɴᴅ ʟᴇss ᴄʀᴀsʜᴇs.
+* ᴀᴛᴛʀᴀᴄᴛɪᴠᴇ ᴛʜᴜᴍʙɴᴀɪʟs, ғᴏɴᴛs ᴀɴᴅ ɪᴍᴀɢᴇs,  ᴍᴀᴋɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴍᴏʀᴇ ᴜsᴇʀ-ғʀɪᴇɴᴅʟʏ ᴀɴᴅ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ.
+* ʟᴏᴏᴘ, sᴇᴇᴋ, sʜᴜғғʟᴇ, sᴘᴇᴄɪғɪᴄ sᴋɪᴘ, ᴘʟᴀʏʟɪsᴛs ᴇᴛᴄ sᴜᴘᴘᴏʀᴛ
+* ɢʟᴏʙᴀʟ, ᴜsᴇʀs, ᴄʜᴀᴛs ᴛᴏᴘ 10 ᴘʟᴀʏᴇᴅ ᴛʀᴀᴄᴋs sᴛᴀᴛs
+* ᴍᴜʟᴛɪ-ʟᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ
 
 
-# 🚀 Heroku Deployment
+# ᴍᴜʟᴛɪ ᴀssɪsᴛᴀɴᴛ ᴍᴏᴅᴇ
+
+- ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴜᴘᴛᴏ 5 ᴀssɪsᴛᴀɴᴛ ᴄʟɪᴇɴᴛs ( ᴀʟʟᴏᴡɪɴɢ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏ ᴀᴛʟᴇᴀsᴛ ᴡᴏʀᴋ ɪɴ 2000-2500 ᴄʜᴀᴛs ᴀᴛ ᴀ ᴛɪᴍᴇ )
+
+1. sᴛʀɪɴɢ_sᴇssɪᴏɴ : ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ ɴᴇᴇᴅᴇᴅ
+2. sᴛʀɪɴɢ_sᴇssɪᴏɴ2 : ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ ɴᴇᴇᴅᴇᴅ
+3. sᴛʀɪɴɢ_sᴇssɪᴏɴ3 : ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ ɴᴇᴇᴅᴇᴅ
+4. sᴛʀɪɴɢ_sᴇssɪᴏɴ4 : ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ ɴᴇᴇᴅᴇᴅ
+5. sᴛʀɪɴɢ_sᴇssɪᴏɴ5 : ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ ɴᴇᴇᴅᴇᴅ
 
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/Landh)
+# 🚀 ʜᴇʀᴏᴋᴜ  ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 
-## 👨🏻‍💻 Authors & contributors
+[![ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/mukhushi-music)
 
-The original setup of this repository is by [Team Yukki](https://github.com/TeamYukki).
+# sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ 
+
+[sᴛʀɪɴɢ   sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/itz_string_session_bot)
 
 
-## 📑 Acknowledgement
 
-Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
+#ᴄʀᴇᴅɪᴛ
 
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
-- [CallsMusic Team](https://github.com/Callsmusic)
-- [TheHamkerCat](https://github.com/TheHamkerCat)
-- [Charon Baglari](https://github.com/XCBv021)
+[ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
 
+[ѕнιиιиg ѕταʀ](https://t.me/ShiningOff013)
+
+[Sɦɑɩɭɘƞɗɤɑ Ƥɑʈɘɭ](https://t.me/Im_Ur_Love)
+
+#  sᴜᴘᴘᴏʀᴛ ɴᴅ ᴜᴘᴅᴀᴛᴇs
+
+[sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/worldwide_friend_zone)
+
+[sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/mukhushi_official)
+
+[ ɴᴇᴛᴡᴏʀᴋ ](https://t.me/mastermind_network_official)

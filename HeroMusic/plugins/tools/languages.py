@@ -16,7 +16,7 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English",
+            text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 ᴇɴɢʟɪsʜ",
             callback_data=f"languages:en",
         ),
         InlineKeyboardButton(
@@ -46,7 +46,7 @@ def lanuages_keyboard(_):
     )
     keyboard.row(
         InlineKeyboardButton(
-            text="🐶 Cheems",
+            text="🐶 ᴄʜᴇᴇᴍs",
             callback_data=f"languages:cheems",
         ),
     )
@@ -102,16 +102,16 @@ async def language_markup(client, CallbackQuery, _):
     old = await get_lang(CallbackQuery.message.chat.id)
     if str(old) == str(langauge):
         return await CallbackQuery.answer(
-            "You're already on same language", show_alert=True
+            "ʏᴏᴜ'ʀᴇ  ᴀʟʀᴇᴀᴅʏ ᴏɴ sᴀᴍᴇ ʟᴀɴɢᴜᴀɢᴇ ʙᴄ", show_alert=True
         )
     try:
         _ = get_string(langauge)
         await CallbackQuery.answer(
-            "Successfully changed your language.", show_alert=True
+            "sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʜᴀɴɢᴇᴅ ʏᴏᴜʀ ʟᴀɴɢᴜᴀɢᴇ ʙʙ.", show_alert=True
         )
     except:
         return await CallbackQuery.answer(
-            "Failed to change language or Language under update.",
+            "ғᴀɪʟᴇᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ʟᴀɴɢᴜᴀɢᴇ ᴏʀ ʟᴀɴɢᴜᴀɢᴇ ᴜɴᴅᴇʀ ᴜᴘᴅᴀᴛᴇ.",
             show_alert=True,
         )
     await set_lang(CallbackQuery.message.chat.id, langauge)

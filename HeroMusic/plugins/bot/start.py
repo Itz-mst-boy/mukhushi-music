@@ -27,8 +27,7 @@ loop = asyncio.get_running_loop()
 
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
-    & filters.private
-    & ~filters.edited
+    & filters.edited
     & ~BANNED_USERS
 )
 @LanguageStart
@@ -45,7 +44,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🔎 ғᴇᴛᴄʜɪɴɢ ʏᴏᴜʀ ᴘᴇʀsᴏɴᴀʟ sᴛᴀᴛs ᴡᴀɪᴛ ʙʙ.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -81,9 +80,9 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[Telegram Files and Audios](https://t.me/telegram) ** played {count} times**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇs ᴀɴᴅ ᴀᴜᴅɪᴏs](https://t.me/telegram) ** ᴘʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
-                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
+                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** ᴘʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
                 return videoid, msg
 
@@ -105,7 +104,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} ʜᴀs ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ʙᴏᴛ ᴛᴏ ᴄʜᴇᴄᴋ <code>SUDOLIST</code>\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -121,7 +120,7 @@ async def start_comm(client, message: Message, _):
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎 Fetching Info!")
+            m = await message.reply_text("🔎 ғᴇᴛᴄʜɪɴɢ ɪɴғᴏ  ʙʙ ᴡᴀɪᴛ !")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -139,21 +138,21 @@ async def start_comm(client, message: Message, _):
             searched_text = f"""
 🔍__**ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ**__
 
-❇️**Title:** {title}
+❇️**ᴛɪᴛʟᴇ:** {title}
 
 ⏳**ᴅᴜʀᴀᴛɪᴏɴ:** {duration} Mins
 👀**ᴠɪᴇᴡs:** `{views}`
 ⏰**ᴘᴜʙʟɪsʜᴇᴅ ᴛɪᴍᴇ:** {published}
 🎥**ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ:** {channel}
-📎**ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ғʀᴏᴍ ʜᴇʀᴇ]({channellink})
-🔗**ᴠɪᴅᴇᴏ ʟɪɴᴋ:** [ʟɪɴᴋ]({link})
+📎**ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [Visit From Here]({channellink})
+🔗**ᴠɪᴅᴇᴏ ʟɪɴᴋ:** [Link]({link})
 
-⚡️ __sᴇᴀʀᴄʜᴇᴅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}__"""
+⚡️ __ ᴊᴏɪɴ @mastermind_network_official sᴇᴀʀᴄʜᴇᴅ  ᴘᴏᴡᴇʀᴇᴅ ʙʏ{config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 ᴡᴀᴛᴄʜ ", url=f"{link}"
+                            text="🎥 ᴡᴀᴛᴄʜ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
                             text="🔄 ᴄʟᴏsᴇ", callback_data="close"
@@ -237,7 +236,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                "**ᴘʀɪᴠᴀᴛᴇ ᴍᴜsɪᴄ ʙᴏᴛ**\n\nᴏɴʟʏ ғᴏʀ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴄʜᴀᴛs ғʀᴏᴍ ᴛʜᴇ ᴏᴡɴᴇʀ. ᴀsᴋ ᴍʏ ᴏᴡɴᴇʀ  ᴛᴏ ᴀʟʟᴏᴡ ʏᴏᴜʀ ᴄʜᴀᴛ ғɪʀsᴛ."
             )
             return await app.leave_chat(message.chat.id)
     else:

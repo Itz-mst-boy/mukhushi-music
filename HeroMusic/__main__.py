@@ -24,7 +24,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("HeroMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+            "ɴᴏ ᴀssɪsᴛᴀɴᴛ ᴄʟɪᴇɴᴛs ᴠᴀʀs ᴅᴇғɪɴᴇᴅ!.. ᴇxɪᴛɪɴɢ ᴘʀᴏᴄᴇss."
         )
         return
     if (
@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("HeroMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+            "ɴᴏ sᴘᴏᴛɪғʏ ᴠᴀʀs ᴅᴇғɪɴᴇᴅ. ʏᴏᴜʀ ʙᴏᴛ ᴡᴏɴ'ᴛ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴘʟᴀʏ sᴘᴏᴛɪғʏ ǫᴜᴇʀɪᴇs."
         )
     try:
         users = await get_gbanned()
@@ -57,16 +57,16 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("HeroMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+            "[ERROR] - \n\nᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ʏᴏᴜʀ ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ's ᴠᴏɪᴄᴇ ᴄᴀʟʟ. ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ɴᴇᴠᴇʀ ᴄʟᴏsᴇ/ ᴇɴᴅ ᴠᴏɪᴄᴇ  ᴄᴀʟʟ ɪɴ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ"
         )
         sys.exit()
     except:
         pass
     await Hero.decorators()
-    LOGGER("HeroMusic").info("Mukhushi Music Bot Started Successfully")
+    LOGGER("HeroMusic").info("ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("HeroMusic").info("Stopping Mukhushi Music Bot! GoodBye")
+    LOGGER("HeroMusic").info("sᴛᴏᴘᴘɪɴɢ ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ ʙᴏᴛ! ɢᴏᴏᴅʙʏᴇ ʙʙ")

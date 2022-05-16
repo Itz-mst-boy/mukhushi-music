@@ -6,7 +6,7 @@
  ɪғ ᴜ ғᴀᴄᴇ ɪssᴜᴇ ᴛʜᴇɴ 1sᴛ ғᴏʀᴋ ʀᴇᴘᴏ ᴛʜᴇɴ ᴅᴇᴘʟᴏʏ.
 
 
-<p> align="center">
+<p>
   <img src="https://telegra.ph/file/fc0c0be621080fe18ef3a.jpg">
 </p>
 

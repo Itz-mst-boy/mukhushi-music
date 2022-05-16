@@ -25,7 +25,7 @@ node(){
 
 
 repo(){
-	git clone https://github.com/Shailendra34/HeroMusicBot &&  cd HeroMusicBot
+	git clone https://github.com/Itz-mst-boy/mukhushi-music &&  cd mukhushi-music
 }
 
 

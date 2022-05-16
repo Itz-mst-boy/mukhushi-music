@@ -57,16 +57,16 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("HeroMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+            "[ERROR] - \n\nᴘʟᴇᴀsᴇ ᴛᴜʀɴ  ᴏɴ ʏᴏᴜʀ ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ's ᴠᴏɪᴄᴇ ᴄᴀʟʟ. ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ɴᴇᴠᴇʀ ᴄʟᴏsᴇ/ᴇɴᴅ ᴠᴏɪᴄᴇ ᴄᴀʟʟ ɪɴ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ"
         )
         sys.exit()
     except:
         pass
     await Hero.decorators()
-    LOGGER("HeroMusic").info("Hero Music Bot Started Successfully")
+    LOGGER("HeroMusic").info("ᴍᴜᴋʜᴜsʜɪ ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("HeroMusic").info("Stopping Hero Music Bot! GoodBye")
+    LOGGER("HeroMusic").info(" sᴛᴏᴘɪɴɢ ᴍᴜᴋʜᴜsʜɪ  ᴍᴜsɪᴄ  ʙᴏᴛ! ɢᴏᴏᴅʙʏᴇ")

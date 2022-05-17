@@ -51,6 +51,7 @@
 
 [Sɦɑɩɭɘƞɗɤɑ Ƥɑʈɘɭ](https://t.me/Im_Ur_Love)
 
+[ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_was_bot)
 #  sᴜᴘᴘᴏʀᴛ ɴᴅ ᴜᴘᴅᴀᴛᴇs
 
 [sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/worldwide_friend_zone)

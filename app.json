@@ -30,7 +30,7 @@
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "enter group link example:- https://t.me/Yaaro_ki_yaarii", 
+        "description": "enter group link example:- https://t.me/mr_sukkun", 
         "value": "https://t.me/worldwide_friend_zone", 
         "required": false
       },  

@@ -7,7 +7,7 @@
 
 
 <p>
-  <img src="https://telegra.ph/file/fc0c0be621080fe18ef3a.jpg">
+  <img src="https://te.legra.ph/file/eae03d740edf91d616291.jpg">
 </p>
 
  # ғᴇᴀᴛᴜʀᴇs
